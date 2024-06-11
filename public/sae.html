@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation SAE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    Raphaël DANY
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">À propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#projects">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5 pt-5">
+        <section id="presentation" class="my-5">
+            <div class="card-100 hover-animate ">
+                <div class="card presentation-content p-4 shadow fade-in-section">
+                    <h2 class="card-title">Présentation SAE</h2>
+                    <p class="card-text">Bienvenue à ma présentation sur mon projet de SAE</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cards" class="my-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col fade-in-section">
+                    <div class="card h-100 hover-animate">
+                        <div class="card-body">
+                            <h3 class="card-title">Description du Site</h3>
+                            <p class="card-text">Pour représenter mon travail avec différents modèles, j'ai développé un
+                                site web permettant de visualiser simplement et efficacement les graphiques et les
+                                données de test. Ce site a été conçu en utilisant Python avec le framework Flask, ainsi
+                                que du HTML, du CSS et du JavaScript pour la partie front-end.</p>
+                            <h4>Technologies Utilisées</h4>
+                            <ul>
+                                <li><strong>Python :</strong> Utilisé pour la logique serveur et l'interaction avec les
+                                    modèles de données.</li>
+                                <li><strong>Flask :</strong> Framework web léger pour construire l'application backend.
+                                </li>
+                                <li><strong>HTML :</strong> Structure de la page web.</li>
+                                <li><strong>CSS :</strong> Stylisation et mise en page de l'application web.</li>
+                                <li><strong>JavaScript :</strong> Dynamisation et interactivité des graphiques.</li>
+                            </ul>
+                            <h4>Fonctionnalités</h4>
+                            <ul>
+                                <li><strong>Visualisation des Données :</strong> Affichage clair et intuitif des
+                                    résultats des modèles.</li>
+                                <li><strong>Graphiques Interactifs :</strong> Utilisation de bibliothèques JavaScript
+                                    pour rendre les graphiques interactifs et faciles à manipuler.</li>
+                                <li><strong>Interface Utilisateur :</strong> Conception d'une interface simple et
+                                    ergonomique pour faciliter la navigation et l'analyse des données.</li>
+                                <li><strong>Intégration des Modèles :</strong> Capacité à intégrer et tester différents
+                                    modèles de données pour comparer leurs performances.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col fade-in-section">
+                    <div class="card h-100 hover-animate">
+                        <div class="card-body">
+                            <h3 class="card-title">Méthodologie</h3>
+                            <ul>
+                                <li><strong>Collecte de Données:</strong> Réunir des données provenant de différentes
+                                    sources, incluant des cycles de charge/décharge, des températures de fonctionnement,
+                                    et des historiques de performance.</li>
+                                <li><strong>Prétraitement des Données:</strong> Nettoyer et normaliser les données pour
+                                    qu'elles soient utilisables par les modèles de machine learning.</li>
+                                <li><strong>Sélection des Modèles:</strong> Tester plusieurs algorithmes de machine
+                                    learning (réseaux de neurones, SVM, Random Forest, etc.) pour déterminer celui qui
+                                    offre la meilleure précision.</li>
+                                <li><strong>Entraînement et Validation:</strong> Entraîner les modèles sur des jeux de
+                                    données d'entraînement et valider leur performance sur des jeux de données de test.
+                                </li>
+                                <li><strong>Optimisation des Hyperparamètres:</strong> Ajuster les paramètres des
+                                    modèles pour améliorer leur précision et leur capacité de généralisation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col fade-in-section">
+                    <div class="card h-100 hover-animate">
+                        <img src="images/confusion_matrix.png" class="card-img-top" alt="Matrice de confusion">
+                        <div class="card-body">
+                            <h3 class="card-title">Matrice de confusion</h3>
+                            <p class="card-text">Montre la performance du modèle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col fade-in-section">
+                    <div class="card h-100 hover-animate">
+                        <img src="images/true_vs_pred.png" class="card-img-top" alt="Graphique de prédiction">
+                        <div class="card-body">
+                            <h3 class="card-title">Graphique de prédiction</h3>
+                            <p class="card-text">Différence entre les valeurs de prédiction et les valeurs réelles
+                                données par notre modèle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-1 mt-4">
+                <div class="col fade-in-section">
+                    <div class="card h-100 hover-animate">
+                        <div class="card-body">
+                            <h3 class="card-title">Mes Actions</h3>
+                            <p class="card-text">Dans le cadre de mon projet, j'ai d'abord fait du nettoyage et de
+                                stockage des données concernant les batteries au lithium et les panneaux solaires. Cette
+                                étape a permis de garantir la qualité et la fiabilité des données utilisées. Ensuite,
+                                j'ai appliqué diverses méthodes de classification et de régression pour entraîner
+                                plusieurs modèles.</p>
+                            <p class="card-text">L'objectif était double : d'une part, détecter efficacement les
+                                anomalies potentielles dans les panneaux solaires, et d'autre part, estimer avec
+                                précision la durée de vie restante (RUL) des batteries au lithium. Pour la détection des
+                                anomalies, j'ai exploré plusieurs algorithmes de classification, optimisant leurs
+                                performances pour identifier rapidement les défaillances et améliorer la maintenance
+                                prédictive des panneaux solaires.</p>
+                            <p class="card-text">En parallèle, pour le calcul de la durée de vie des batteries, j'ai
+                                utilisé des techniques de régression avancées afin de fournir des estimations robustes
+                                et précises de la RUL, contribuant ainsi à une gestion plus efficace et durable des
+                                ressources énergétiques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4 fade-in-section mt-4">
+                    <div class="card h-100 hover-animate">
+                        <div class="card-body">
+                            <h3 class="card-title">Compétence 4 : Administrer une base de données, concevoir et réaliser
+                                des systèmes d'informations décisionnels</h3>
+                            <p class="card-text">SAE avec Machine Learning sur les Batteries</p>
+                            <ul>
+                                <li><strong>AC 1 : Capturer et stocker des ensembles volumineux et complexes de données
+                                        hétérogènes :</strong> J'ai appris à manipuler et à gérer de grandes quantités
+                                    de données provenant de fichiers MATLAB, que j'ai ensuite transformés en fichiers
+                                    CSV pour les stocker dans un dataset. Cette étape était essentielle pour organiser
+                                    et structurer les données de manière à les rendre exploitables pour des analyses
+                                    ultérieures.</li>
+                                <li><strong>AC 2 : Préparer et extraire les données pour l'exploitation :</strong> La
+                                    préparation des données a été une étape importante de cette SAE pour obtenir des
+                                    jeux de données de test et d'entraînement de qualité. J'ai nettoyé les jeux de
+                                    données, traité les valeurs manquantes et normalisé les informations pour les rendre
+                                    exploitables par des algorithmes de machine learning.</li>
+                                <li><strong>AC 3 : Appliquer des méthodes d'exploration et d'exploitation des données
+                                        :</strong> J'ai mis en œuvre diverses techniques de machine learning et
+                                    d'informatique décisionnelle pour analyser les données des batteries. Cela inclut
+                                    l'utilisation d'algorithmes d'apprentissage supervisé et non supervisé pour estimer
+                                    la durée de vie restante (RUL) des batteries.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4 fade-in-section">
+                    <div class="card h-100 hover-animate">
+                        <div class="card-body">
+                            <h3 class="card-title">Compétence 5 : Participer à la conception et à la mise en œuvre d'un
+                                projet système d'information</h3>
+                            <p class="card-text">SAE avec Machine Learning sur les Batteries</p>
+                            <p class="card-text">J'ai participé activement à la conception et à la mise en œuvre de
+                                projets de systèmes d'information. Un exemple notable est l'application de visualisation
+                                de données :</p>
+                            <ul>
+                                <li><strong>Conception et Développement :</strong> Développement d'une application pour
+                                    visualiser les données de traning </li>
+                            </ul>
+                            <h4>Technologies Utilisées</h4>
+                            <ul>
+                                <li>Python </li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4 fade-in-section">
+                    <div class="card h-100 hover-animate">
+                        <div class="card-body">
+                            <h3 class="card-title">Compétence 6 : Manager une équipe informatique</h3>
+                            <p class="card-text">SAE avec Machine Learning sur les Batteries</p>
+                            <p class="card-text">Étant le seul membre sur ce projet, j'ai dû m'auto-manager pour mener à
+                                bien les différentes tâches :</p>
+                            <ul>
+                                <li><strong>Auto-management :</strong> J'ai appris à organiser mon travail, à fixer des
+                                    objectifs et à respecter les délais sans supervision directe.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div id="contact" class="container text-center">
+            <p>Copyright &copy; 2024</p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+                <li class="mx-2"><a href="https://github.com/Rdany-iut90" target="_blank"><img src="images/github.png"
+                            alt="GitHub" width="32" height="32"></a></li>
+                <li class="mx-2"><a href="https://linkedin.com/in/raphael-dany" target="_blank"><img
+                            src="images/linkedin.png" alt="LinkedIn" width="32" height="32"></a></li>
+                <li class="mx-2"><a href="mailto:raphaeldany03@gmail.com"><img src="images/gmail.png" alt="Email"
+                            width="32" height="32"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="back-to-top" class="rounded-circle">
+        <a href="#hero"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
